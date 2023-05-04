@@ -1,0 +1,13 @@
+import time
+from winotify import Notification, audio
+
+toast = Notification(app_id = "NeuralNine Script",
+                     title="Important Info",
+                     msg="Learn Python & Machine Learning",
+                     duration="long",
+                     icon=r"C:\Users\İBRAHİM MERT AKBAŞ\PycharmProjects\pythonProject5\ModulsandPackagesWorks\neuralnine.jpeg")
+
+toast.add_actions(label="Let's Come", launch="https://www.atilsamancioglu.com")
+toast.set_audio(audio.LoopingAlarm, loop=True)
+
+toast.show()
