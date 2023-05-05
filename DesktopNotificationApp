@@ -5,7 +5,7 @@ toast = Notification(app_id = "Atil Samancioglu",
                      title="Important Info",
                      msg="Learn Python with AtilSam",
                      duration="long",
-                     icon=r"C:\Users\İBRAHİM MERT AKBAŞ\PycharmProjects\pythonProject5\ModulsandPackagesWorks\academyclub.jpeg")
+                     icon=r"C:\Users\İBRAHİM MERT\PycharmProjects\pythonProject5\ModulsandPackagesWorks\academyclub.jpeg")
 
 toast.add_actions(label="Let's Come", launch="https://www.atilsamancioglu.com")
 toast.set_audio(audio.LoopingAlarm, loop=True)
