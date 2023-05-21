@@ -1,13 +1,13 @@
 import time
 from winotify import Notification, audio
 
-toast = Notification(app_id = "Atil Samancioglu",
+toast = Notification(app_id = "Ibrahim Mert",
                      title="Important Info",
-                     msg="Learn Python with AtilSam",
+                     msg="Learn Python with Imert",
                      duration="long",
-                     icon=r"C:\Users\İBRAHİM MERT\PycharmProjects\pythonProject5\ModulsandPackagesWorks\academyclub.jpeg")
+                     icon=r"C:\Users\İBRAHİM MERT\PycharmProjects\pythonProject5\ModulsandPackagesWorks\creaclub.jpeg")
 
-toast.add_actions(label="Let's Come", launch="https://www.atilsamancioglu.com")
+toast.add_actions(label="Let's Come", launch="https://www.ibrahimert.com")
 toast.set_audio(audio.LoopingAlarm, loop=True)
 
 toast.show()
